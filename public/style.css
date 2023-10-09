@@ -1,0 +1,161 @@
+h2{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+@media (max-width: 350px) {
+    .chat-container {
+        width: 90%;
+        padding: 5px;
+    }
+}
+
+#login-name {
+    width: 60%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+#login-btn {
+    width: 64%;
+    background-color: #00a6fb;
+    font-size: 1.2rem;
+    color: white;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#login-btn:hover {
+    background-color: #0582ca;
+}
+
+.chat-description {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.chat {
+    height: 450px;
+    overflow-y: auto;
+    margin-bottom: 5px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.input-box {
+    flex-grow: 0;
+    padding: 8px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #e5e5e5;
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+.send-btn {
+    background-color: #00a6fb;
+    font-size: 1.2rem;
+    color: white;
+    padding: 7px 9px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    background-color: #0582ca;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.sender {
+    background-color: #c5dedd;
+    margin-left: 15px;
+    margin-right: 4px;
+    border-radius: 5px 5px 0px 5px;
+}
+
+.receiver {
+    background-color: #d8e2dc;
+    margin-right: 19px;
+    border-radius: 0px 5px 5px 5px;
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ruwudu', serif;
+    font-family: 'Young Serif', serif;
+}
+
+#profile-pic {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+    /* margin-inline-start: auto;
+    margin-inline-end: auto; */
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fafaff;
+    border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fafaff;
+}

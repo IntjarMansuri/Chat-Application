@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application - Intjar Mansuri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nanum+Myeongjo&family=Noto+Serif&family=Playfair+Display:wght@500&family=Ruwudu:wght@500&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2>Chat App</h2>
+
+    <div class="chat-container">
+        <div class="chat-description">
+            <p>The Chat Application</p>
+            <hr>
+        </div>
+        <input id="login-name" type="text" placeholder="Enter Name">
+        <button id="login-btn">Continue</button>
+        <div class="chat-description">
+            <hr>
+            <p>Owned by Intjar Mansuri</p>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="/images/profile.png" alt="Profile Pic" id="profile-pic">
+            <span id="chat-username"></span>
+        </div>
+        <hr>
+        <div class="chat">
+            <!-- <div class="message sender"><strong>Aahil</strong> This is random text</div>
+            <div class="message receiver">Umang- This is Receiver Text</div> -->
+        </div>
+
+        <div class="input-container">
+            <input class="input-box" type="text" placeholder=" Message........">
+            <button class="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div> 
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
