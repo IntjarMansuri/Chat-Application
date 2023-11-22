@@ -1,25 +1,18 @@
-h2{
-    text-align: center;
-    margin: 50px 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 .chat-container {
     display: flex;
-    flex-direction: column; /* Arrange items vertically */
-    align-items: center; /* Center items horizontally */
-    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
     border: 1px solid #e5e5e5;
-    max-width: 350px;
-    margin: 0 auto;
     border-radius: 5px;
-    padding: 5px;
-}
-
-@media (max-width: 350px) {
-    .chat-container {
-        width: 90%;
-        padding: 5px;
-    }
+    max-width: 360px;
+    margin: 20px auto;
+    padding: 10px;
 }
 
 #login-name {
@@ -33,7 +26,7 @@ h2{
 }
 
 #login-btn {
-    width: 64%;
+    width: 60%;
     background-color: #00a6fb;
     font-size: 1.2rem;
     color: white;
@@ -56,7 +49,7 @@ h2{
 }
 
 .chat {
-    height: 450px;
+    min-height: 550px;
     overflow-y: auto;
     margin-bottom: 5px;
 }
@@ -117,11 +110,6 @@ h2{
     align-items: center;
     margin-left: 10px;
     font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Nanum Myeongjo', serif;
-    font-family: 'Noto Serif', serif;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Ruwudu', serif;
-    font-family: 'Young Serif', serif;
 }
 
 #profile-pic {
@@ -137,25 +125,20 @@ hr {
     unicode-bidi: isolate;
     margin-block-start: 0.4em;
     margin-block-end: 0.4em;
-    /* margin-inline-start: auto;
-    margin-inline-end: auto; */
     overflow: hidden;
     border-style: inset;
     border-width: 1px;
 }
 
-/* Track */
 ::-webkit-scrollbar {
     width: 5px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: #fafaff;
     border-radius: 6px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #fafaff;
 }
