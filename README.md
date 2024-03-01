@@ -16,4 +16,4 @@ Welcome to my real-time chat application built with Node.js and WebSocket. This 
 ## Screenshots
 ![Chat Application](https://github.com/IntjarMansuri/Chat-Application/assets/139264242/b1d84534-6baf-4574-9b8f-7f14efcc4758)
 
-## Link For Chcekcout Live Chat-Application : https://chat-application-9ziy.onrender.com
+## Chcekcout Live Chat-Application : https://chat-application-9ziy.onrender.com
